@@ -27,7 +27,7 @@ const messages = {
         'Ich weiß nicht, wie ich das schaffen soll. Bitte versuch was anderes'
 };
 
-const url = "https://stream.laut.fm/" + stationName + "?ref=alexa-own-" + stationName;
+const url = "https://brovenco.stream.laut.fm/brovenco" + stationName + "?ref=alexa-own-" + stationName;
 const token = function() {
     return url + '&' + ( new Date() ).getTime();
 }
