@@ -4,8 +4,8 @@
  * session persistence, api calls, and more.
  * */
  
-const stationName = "Brovenco Webradio"
-const spokenStationName = "Brovenco Webradio"
+const stationName = "Bochum Radio"
+const spokenStationName = "Bochum Radio"
 
 const Alexa = require('ask-sdk-core');
 const messages = {
